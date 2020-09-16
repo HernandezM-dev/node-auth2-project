@@ -10,7 +10,7 @@ const KnexSessionStore = require('connect-session-knex')(session);
 
 //routers/import js docs
 const userRouter = require()
-const authRouter = require()
+const authRouter = require('../auth/auth-router')
 const connnection = require()
 
 const server = express
